@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            color: blue;
+            margin: 10px 0;
+        }
+
+        h2, h3 {
+            color: black;
+            margin: 10px 0;
+        }
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <h1>Nota</h1>
+    <br><br>
+
+    <h2>Titulo: {{nota.titulo}}</h2>
+
+    <h2>Fecha: {{nota.fecha}}</h2>
+
+    <h3>Contenido: {{nota.contenido}}</h3>
+
+</body>
+
+</html> 
